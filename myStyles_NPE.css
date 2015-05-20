@@ -9,10 +9,10 @@ body{background-color: #FF7F50;}
 	background-color:#B22222;
 	font-weight:10; 
 	text-align:center;}
-.main{position: float;
-	margin-left: auto;
-	margin-right: auto;
+.main{position:float;
+	margin-left:auto;
+	margin-right:auto;
 	border-style:ridge;
-	border-width: 10px;
-	boder-color: #6495ED;}
+	border-width:10px;
+	border-color:#6495ED;}
 
