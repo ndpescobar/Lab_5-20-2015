@@ -1,16 +1,10 @@
-
-body{border: solid black 5px;
-	background-color: #FF7F50;}
-#bodyDiv{margin-left:auto;
-	margin-right:auto;
-	width:800px;
+#wrapperDiv{margin:auto;
+	border:ridge #6495ED 10px;
+	background-color:#00FFFF;
+	padding:20px;}
+#bodyDiv{margin:auto;
 	height:800px;
-	background-color:#B22222;
-	font-weight:10; 
-	text-align:center;}
-#wrapperDiv{position:float;
-	margin:auto;
-	border-style:ridge;
-	border-width:10px;
-	border-color:#6495ED;}
-
+	width:600px;
+	background-color:#5F9EA0;
+	text-align:center;
+	padding:15px;}
