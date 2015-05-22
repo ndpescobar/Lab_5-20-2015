@@ -5,14 +5,18 @@
 		<link rel="stylesheet" type="text/css" href="myStyles_NPE.css">
 	</head>
 	<body>
-		<div class="main">
-			<div class="center">
+		<div id="wrapperDiv">
+			<div id="headerDiv"></div>
+			<div id="navDiv"></div>
+			<div id="bodyDiv">
 				<h1>Helooo!</h1>
-				<img src="bulb_on.jpg" alt="Bulb On" style="width:180px;height:220px">
 				<p id="content">This is the content?</p>
-				<button type="button" onclick="getDate()">Get The Date</button>
+				<button type="button" 
+				onclick="document.getElementById('demo').innerHTML = Date()">
+				Click me to display Date and Time.</button>
 				<p id="date">Today's Date</p>
 			</div>
+			<div id="footerDiv"></div>
 		</div>
 	</body>
 </html>
